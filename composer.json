@@ -1,0 +1,19 @@
+{
+    "name": "ronanversendaal/console-application",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ronan Versendaal",
+            "email": "ronanversendaal@hotmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "App\\": "src"
+        },
+        "classmap": ["src"]
+    }
+}
